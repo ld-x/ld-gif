@@ -148,8 +148,6 @@ const GiphyPicker = styled.div`
 const GiphyWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0.8rem;
-  padding-right: 0;
   border-radius: 2px;
   align-items: baseline;
 `
@@ -170,7 +168,7 @@ const Input = styled.input`
   height: auto;
   line-height: 1.2;
   padding: 1rem;
-  margin: 0.8rem;
+  margin: 1rem 0.2rem;
   z-index: 100;
   &:focus {
     outline: none;
@@ -178,7 +176,9 @@ const Input = styled.input`
 `
 
 const CloseWrapper = styled.div`
-  padding: 0;
+  position: absolute;
+  top: 0.2rem;
+  right: 0;
   cursor: pointer;
   border: 0;
   background: transparent;

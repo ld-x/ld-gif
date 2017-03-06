@@ -1,6 +1,6 @@
 {
   "name": "ld-gif",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Last Draft gif plugin",
   "main": "lib/gif/plugin.js",
   "scripts": {

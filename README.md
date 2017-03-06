@@ -37,3 +37,29 @@ export default class ExampleEditor extends Component {
   }
 }
 ```
+
+## Styles
+
+Last Draft plugins use styled-components 💅 for the base styling.
+
+## Custom Styles with CSS
+
+You can also add custom css to override the base styling with the following class names specified below:
+
+```css
+.ld-gif-modal-wrapper {}
+.ld-gif-block-wrapper {}
+.ld-gif-block {}
+.ld-gif-block-image {}
+.ld-gif-block-action {}
+.ld-button-gif-close {}
+.ld-gif-button {}
+.ld-button-gif-picker-close {}
+.ld-button-gif-picker-close-wrapper {}
+
+.ld-button-gif-picker-close-button-wrapper {}
+.ld-gif-picker-input {}
+.ld-gif-picker-wrapper-outer {}
+.ld-gif-picker-wrapper {}
+.ld-gif-picker-item {}
+```

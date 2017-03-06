@@ -15,7 +15,7 @@ export default class extends Component {
 
   render () {
     return (
-      <Wrapper>
+      <Wrapper className='ld-gif-modal-wrapper'>
         <Picker onSelected={::this.addGif} closeModal={this.props.closeModal} />
       </Wrapper>
     )
@@ -25,5 +25,5 @@ export default class extends Component {
 const Wrapper = styled.div`
   position: relative;
   background-color: inherit;
-  width: 350px;
+  width: 360px;
 `
